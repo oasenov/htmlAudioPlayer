@@ -1,0 +1,26 @@
+body{
+	background-color: black;
+}
+#contentDiv {
+	background-color: black;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+}
+.ui-header .ui-title {
+	margin: 0 10%! important;
+	color: red;
+}
+
+.selected-list-item {
+	background-color: red ! important;
+}
+
+// for iphone to make the player controls visible
+[controls] {
+	width:100%;
+	margin-top:1.25em;
+	margin-bottom:1.25em;
+}
+
+
+
